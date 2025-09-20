@@ -1,0 +1,10 @@
+Package: com.baontq.hackmenu
+Name: HackMenu
+Depends: mobilesubstrate
+Version: 1.0.
+Architecture: iphoneos-arm
+Description: Hack Menu with Key Login
+Maintainer: APIServer
+Author: baontq
+Section: Tweaks
+Homepage: https://v3.baontq.xyz
