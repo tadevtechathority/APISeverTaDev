@@ -1,10 +1,10 @@
-Package: com.baontq.hackmenu
-Name: HackMenu
+Package: com.tadevtech.dylibkey
+Name: ThienNhanDylibKey
 Depends: mobilesubstrate
-Version: 1.0.
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Hack Menu with Key Login
+Description: Dylib APIServer
 Maintainer: APIServer
-Author: baontq
+Author: thiennhan
 Section: Tweaks
 Homepage: https://v3.baontq.xyz
