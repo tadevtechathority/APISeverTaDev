@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdint.h>
+#import "FPSDisplay.h"
 
 //-------------------------------------------------------------//
 // "Malware related compile-time hacks with C++11" by LeFF   //

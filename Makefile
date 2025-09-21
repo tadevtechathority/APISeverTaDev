@@ -18,20 +18,21 @@ PROJ_COMMON_FRAMEWORKS = UIKit Foundation Security QuartzCore CoreGraphics CoreT
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = hackmenu 
+TWEAK_NAME = thiennhanios 
 
-hackmenu_CFLAGS = -fobjc-arc
-$(TWEAK_NAME)_LDFLAGS += API/libTKAPIKey.a
-hackmenu_CCFLAGS = -std=c++11 -fno-rtti -fno-exceptions -DNDEBUG
+thiennhanios_CFLAGS = -fobjc-arc
+thiennhanios_LDFLAGS += API/libTKAPIKey.a
+thiennhanios_CCFLAGS = -std=c++11 -fno-rtti -fno-exceptions -DNDEBUG
+thiennhanios_FILES = FPSDisplay.m
 
 ifeq ($(IGNORE_WARNINGS),1)
-  hackmenu_CFLAGS += -w
-  hackmenu_CCFLAGS += -w
+  thiennhanios_CFLAGS += -w
+  thiennhanios_CCFLAGS += -w
 endif
 
-hackmenu_FILES = Menu.mm
+thiennhanios_FILES = Menu.mm
 
-hackmenu_FRAMEWORKS = $(PROJ_COMMON_FRAMEWORKS)
+thiennhanios_FRAMEWORKS = $(PROJ_COMMON_FRAMEWORKS)
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
